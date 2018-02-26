@@ -76,3 +76,18 @@ o Domain events
 · Event sourcing (architectural pattern)
 
 · UML
+
+_________________________________
+
+Refatorar:
+	- Eliminar os Map
+	- Stretegy como view de Payment
+	- 'PrintOrderList' separado de 'Order' (order não deve ter print)
+	- Não é responsabilidade do 'Billet' criar o Código de Barras
+	- Fazer estoque de itens
+	- Verificar se ha produtos disponíveis 
+	- Tratar exceptions
+	- Usar Stream API
+	- Criar List<OrderItem> que tenha objeto produto e quantidade
+	- Quando tiver operações dentro de determinadas classe, cria-se outros objetos
+	- MVC
