@@ -81,7 +81,7 @@ _________________________________
 
 Refatorar:
 	- Eliminar os Map
-	- Stretegy como view de Payment
+	- Stretegy como view de Payment (view recebe order e payment)
 	- 'PrintOrderList' separado de 'Order' (order não deve ter print)
 	- Não é responsabilidade do 'Billet' criar o Código de Barras
 	- Fazer estoque de itens
